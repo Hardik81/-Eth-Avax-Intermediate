@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 contract Transact {
-  bool auth=false;
+  bool auth=true;
     event account_confirmation(string message);
     event transaction_confirmed(string mess);
     function Get_account(address account, address Confirm,uint amount) public {
