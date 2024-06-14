@@ -22,7 +22,7 @@ contract Transact {
     event transaction_confirmed(string mess);
     function Get_account(address account, address Confirm,uint amount) public {
       assert(auth);
-      require(send==Confirm,"Wrong account");
+      require (account==Confirm,"Wrong account");
       emit account_confirmation("Matching/Confirming succesful");
       if (amount >= 100000) {
             revert("Maximum limit for withdrawl or transfer is 100");
