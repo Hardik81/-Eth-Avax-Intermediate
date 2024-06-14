@@ -1,4 +1,4 @@
-# Hello World
+# Transaction Mechanism
 
 This project is a part of final assessment of metacrafters ethereum avalanche intermediate course. In this program we make a transaction mechanism that handles different types of exceptions that can occur during a transaction. We do this with the help of error handling using require(), revert(), assert().
 
