@@ -10,7 +10,7 @@ contract Transact {
       require(account==Confirm,"Wrong account");
       emit account_confirmation("Matching/Confirming succesful");
       if (amount >= 100000) {
-            revert("Maximum limit for withdrawl or transfer is 100");
+            revert("Maximum limit for withdrawl or transfer is 100000");
         }
         else{
           emit transaction_confirmed("Payment successful");
